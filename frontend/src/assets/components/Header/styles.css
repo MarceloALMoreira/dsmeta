@@ -1,9 +1,32 @@
 header {
-    background: linear-gradient(180deg, #102347 0%, #181818 100%);
+    background: linear-gradient(180deg, #1a547e 0%, #900b0b87 100%);
     height: 220px;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+h1{
+    background: #abc3db;
+    color: #1a547e;
+    width: 230px;
+    text-align: center;
+    border-radius: 8px;   
+    cursor: pointer;
+    transition: all 0.3s ease;
+   
+}
+/*h1:hover{
+    background: #097dc5c6;
+    color: rgba(255, 255, 255, 0.677);
+    width: 230px;
+    text-align: center;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.4s ease;
+}*/
+.dsmeta-logo-container h1 p{
+    font-size: 20px;
+    
 }
 
 .dsmeta-logo-container {
@@ -11,14 +34,15 @@ header {
     flex-direction: column;
     align-items: center;
 }
-
-.dsmeta-logo-container img {
-    width: 235px;
+/*Logo IMG*/
+.dsmeta-logo-container img { 
+    width: 255px;  
+    margin-top: 10px;
 }
 
 .dsmeta-logo-container h1 {
-    margin-top: 15px;
-    font-size: 24px;
+    margin-top: 18px;
+    font-size: 30px;
 }
 
 .dsmeta-logo-container p {

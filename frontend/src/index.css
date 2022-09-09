@@ -9,8 +9,9 @@
 
 body,
 html {
-  background-color: #000;
-  color: #fff;
+  background-color: #097dc5c6;
+  color: #d7e2d0;
+
 }
 a,
 a:hover,
@@ -21,7 +22,7 @@ a:visited {
 
 .dsmeta-container {
   width: 100%;
-  max-width: 900px;
+  max-width: 1150px;
   margin: 0 auto;
 }
 
