@@ -1,5 +1,8 @@
+import { ToastContainer } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 import Header from "./assets/components/Header";
 import SalesCard from "./assets/components/SalesCard";
+
 
 
 function App() {
@@ -7,6 +10,7 @@ function App() {
   return (
     <>
 
+    <ToastContainer/>   
       <Header />
       <main>
         <section id="sales">
